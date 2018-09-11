@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99E466C62147BCE900EFD921 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E466C52147BCE900EFD921 /* AppDelegate.m */; };
+		99E466C92147BCE900EFD921 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E466C82147BCE900EFD921 /* ViewController.m */; };
+		99E466CC2147BCEA00EFD921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E466CA2147BCEA00EFD921 /* Main.storyboard */; };
+		99E466CE2147BCEC00EFD921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E466CD2147BCEC00EFD921 /* Assets.xcassets */; };
+		99E466D12147BCEC00EFD921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E466CF2147BCEC00EFD921 /* LaunchScreen.storyboard */; };
+		99E466D42147BCEC00EFD921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E466D32147BCEC00EFD921 /* main.m */; };
+		99E466DE2147BCED00EFD921 /* PZXVideoRecordPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E466DD2147BCED00EFD921 /* PZXVideoRecordPlayerTests.m */; };
+		99E466E92147BCED00EFD921 /* PZXVideoRecordPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E466E82147BCED00EFD921 /* PZXVideoRecordPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99E466DA2147BCED00EFD921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99E466B92147BCE900EFD921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99E466C02147BCE900EFD921;
+			remoteInfo = PZXVideoRecordPlayer;
+		};
+		99E466E52147BCED00EFD921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99E466B92147BCE900EFD921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99E466C02147BCE900EFD921;
+			remoteInfo = PZXVideoRecordPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99E466C12147BCE900EFD921 /* PZXVideoRecordPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PZXVideoRecordPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E466C42147BCE900EFD921 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99E466C52147BCE900EFD921 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99E466C72147BCE900EFD921 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99E466C82147BCE900EFD921 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		99E466CB2147BCEA00EFD921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99E466CD2147BCEC00EFD921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99E466D02147BCEC00EFD921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99E466D22147BCEC00EFD921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E466D32147BCEC00EFD921 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99E466D92147BCED00EFD921 /* PZXVideoRecordPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PZXVideoRecordPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E466DD2147BCED00EFD921 /* PZXVideoRecordPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXVideoRecordPlayerTests.m; sourceTree = "<group>"; };
+		99E466DF2147BCED00EFD921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E466E42147BCED00EFD921 /* PZXVideoRecordPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PZXVideoRecordPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E466E82147BCED00EFD921 /* PZXVideoRecordPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXVideoRecordPlayerUITests.m; sourceTree = "<group>"; };
+		99E466EA2147BCED00EFD921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99E466BE2147BCE900EFD921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E466D62147BCED00EFD921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E466E12147BCED00EFD921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99E466B82147BCE900EFD921 = {
+			isa = PBXGroup;
+			children = (
+				99E466C32147BCE900EFD921 /* PZXVideoRecordPlayer */,
+				99E466DC2147BCED00EFD921 /* PZXVideoRecordPlayerTests */,
+				99E466E72147BCED00EFD921 /* PZXVideoRecordPlayerUITests */,
+				99E466C22147BCE900EFD921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99E466C22147BCE900EFD921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99E466C12147BCE900EFD921 /* PZXVideoRecordPlayer.app */,
+				99E466D92147BCED00EFD921 /* PZXVideoRecordPlayerTests.xctest */,
+				99E466E42147BCED00EFD921 /* PZXVideoRecordPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99E466C32147BCE900EFD921 /* PZXVideoRecordPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				99E466C42147BCE900EFD921 /* AppDelegate.h */,
+				99E466C52147BCE900EFD921 /* AppDelegate.m */,
+				99E466C72147BCE900EFD921 /* ViewController.h */,
+				99E466C82147BCE900EFD921 /* ViewController.m */,
+				99E466CA2147BCEA00EFD921 /* Main.storyboard */,
+				99E466CD2147BCEC00EFD921 /* Assets.xcassets */,
+				99E466CF2147BCEC00EFD921 /* LaunchScreen.storyboard */,
+				99E466D22147BCEC00EFD921 /* Info.plist */,
+				99E466D32147BCEC00EFD921 /* main.m */,
+			);
+			path = PZXVideoRecordPlayer;
+			sourceTree = "<group>";
+		};
+		99E466DC2147BCED00EFD921 /* PZXVideoRecordPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				99E466DD2147BCED00EFD921 /* PZXVideoRecordPlayerTests.m */,
+				99E466DF2147BCED00EFD921 /* Info.plist */,
+			);
+			path = PZXVideoRecordPlayerTests;
+			sourceTree = "<group>";
+		};
+		99E466E72147BCED00EFD921 /* PZXVideoRecordPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99E466E82147BCED00EFD921 /* PZXVideoRecordPlayerUITests.m */,
+				99E466EA2147BCED00EFD921 /* Info.plist */,
+			);
+			path = PZXVideoRecordPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99E466C02147BCE900EFD921 /* PZXVideoRecordPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E466ED2147BCED00EFD921 /* Build configuration list for PBXNativeTarget "PZXVideoRecordPlayer" */;
+			buildPhases = (
+				99E466BD2147BCE900EFD921 /* Sources */,
+				99E466BE2147BCE900EFD921 /* Frameworks */,
+				99E466BF2147BCE900EFD921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PZXVideoRecordPlayer;
+			productName = PZXVideoRecordPlayer;
+			productReference = 99E466C12147BCE900EFD921 /* PZXVideoRecordPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99E466D82147BCED00EFD921 /* PZXVideoRecordPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E466F02147BCED00EFD921 /* Build configuration list for PBXNativeTarget "PZXVideoRecordPlayerTests" */;
+			buildPhases = (
+				99E466D52147BCED00EFD921 /* Sources */,
+				99E466D62147BCED00EFD921 /* Frameworks */,
+				99E466D72147BCED00EFD921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99E466DB2147BCED00EFD921 /* PBXTargetDependency */,
+			);
+			name = PZXVideoRecordPlayerTests;
+			productName = PZXVideoRecordPlayerTests;
+			productReference = 99E466D92147BCED00EFD921 /* PZXVideoRecordPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99E466E32147BCED00EFD921 /* PZXVideoRecordPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E466F32147BCED00EFD921 /* Build configuration list for PBXNativeTarget "PZXVideoRecordPlayerUITests" */;
+			buildPhases = (
+				99E466E02147BCED00EFD921 /* Sources */,
+				99E466E12147BCED00EFD921 /* Frameworks */,
+				99E466E22147BCED00EFD921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99E466E62147BCED00EFD921 /* PBXTargetDependency */,
+			);
+			name = PZXVideoRecordPlayerUITests;
+			productName = PZXVideoRecordPlayerUITests;
+			productReference = 99E466E42147BCED00EFD921 /* PZXVideoRecordPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99E466B92147BCE900EFD921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = pengzuxin;
+				TargetAttributes = {
+					99E466C02147BCE900EFD921 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					99E466D82147BCED00EFD921 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 99E466C02147BCE900EFD921;
+					};
+					99E466E32147BCED00EFD921 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 99E466C02147BCE900EFD921;
+					};
+				};
+			};
+			buildConfigurationList = 99E466BC2147BCE900EFD921 /* Build configuration list for PBXProject "PZXVideoRecordPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99E466B82147BCE900EFD921;
+			productRefGroup = 99E466C22147BCE900EFD921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99E466C02147BCE900EFD921 /* PZXVideoRecordPlayer */,
+				99E466D82147BCED00EFD921 /* PZXVideoRecordPlayerTests */,
+				99E466E32147BCED00EFD921 /* PZXVideoRecordPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99E466BF2147BCE900EFD921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E466D12147BCEC00EFD921 /* LaunchScreen.storyboard in Resources */,
+				99E466CE2147BCEC00EFD921 /* Assets.xcassets in Resources */,
+				99E466CC2147BCEA00EFD921 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E466D72147BCED00EFD921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E466E22147BCED00EFD921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99E466BD2147BCE900EFD921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E466C92147BCE900EFD921 /* ViewController.m in Sources */,
+				99E466D42147BCEC00EFD921 /* main.m in Sources */,
+				99E466C62147BCE900EFD921 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E466D52147BCED00EFD921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E466DE2147BCED00EFD921 /* PZXVideoRecordPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E466E02147BCED00EFD921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E466E92147BCED00EFD921 /* PZXVideoRecordPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99E466DB2147BCED00EFD921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99E466C02147BCE900EFD921 /* PZXVideoRecordPlayer */;
+			targetProxy = 99E466DA2147BCED00EFD921 /* PBXContainerItemProxy */;
+		};
+		99E466E62147BCED00EFD921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99E466C02147BCE900EFD921 /* PZXVideoRecordPlayer */;
+			targetProxy = 99E466E52147BCED00EFD921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99E466CA2147BCEA00EFD921 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E466CB2147BCEA00EFD921 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99E466CF2147BCEC00EFD921 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E466D02147BCEC00EFD921 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99E466EB2147BCED00EFD921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99E466EC2147BCED00EFD921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99E466EE2147BCED00EFD921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55V9K2V9Z4;
+				INFOPLIST_FILE = PZXVideoRecordPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pzx.PZXVideoRecordPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99E466EF2147BCED00EFD921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55V9K2V9Z4;
+				INFOPLIST_FILE = PZXVideoRecordPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pzx.PZXVideoRecordPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99E466F12147BCED00EFD921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55V9K2V9Z4;
+				INFOPLIST_FILE = PZXVideoRecordPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pzx.PZXVideoRecordPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PZXVideoRecordPlayer.app/PZXVideoRecordPlayer";
+			};
+			name = Debug;
+		};
+		99E466F22147BCED00EFD921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55V9K2V9Z4;
+				INFOPLIST_FILE = PZXVideoRecordPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pzx.PZXVideoRecordPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PZXVideoRecordPlayer.app/PZXVideoRecordPlayer";
+			};
+			name = Release;
+		};
+		99E466F42147BCED00EFD921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55V9K2V9Z4;
+				INFOPLIST_FILE = PZXVideoRecordPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pzx.PZXVideoRecordPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PZXVideoRecordPlayer;
+			};
+			name = Debug;
+		};
+		99E466F52147BCED00EFD921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55V9K2V9Z4;
+				INFOPLIST_FILE = PZXVideoRecordPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pzx.PZXVideoRecordPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PZXVideoRecordPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99E466BC2147BCE900EFD921 /* Build configuration list for PBXProject "PZXVideoRecordPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E466EB2147BCED00EFD921 /* Debug */,
+				99E466EC2147BCED00EFD921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E466ED2147BCED00EFD921 /* Build configuration list for PBXNativeTarget "PZXVideoRecordPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E466EE2147BCED00EFD921 /* Debug */,
+				99E466EF2147BCED00EFD921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E466F02147BCED00EFD921 /* Build configuration list for PBXNativeTarget "PZXVideoRecordPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E466F12147BCED00EFD921 /* Debug */,
+				99E466F22147BCED00EFD921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E466F32147BCED00EFD921 /* Build configuration list for PBXNativeTarget "PZXVideoRecordPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E466F42147BCED00EFD921 /* Debug */,
+				99E466F52147BCED00EFD921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99E466B92147BCE900EFD921 /* Project object */;
+}
