@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		992DEDD42148A45900F68978 /* PZXCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 992DEDD32148A45900F68978 /* PZXCircleView.m */; };
+		99AD48A521490E3F0040C78D /* PZXVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AD48A421490E3F0040C78D /* PZXVideoModel.m */; };
 		99E466C62147BCE900EFD921 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E466C52147BCE900EFD921 /* AppDelegate.m */; };
 		99E466C92147BCE900EFD921 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E466C82147BCE900EFD921 /* ViewController.m */; };
 		99E466CC2147BCEA00EFD921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E466CA2147BCEA00EFD921 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		99E466D42147BCEC00EFD921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E466D32147BCEC00EFD921 /* main.m */; };
 		99E466DE2147BCED00EFD921 /* PZXVideoRecordPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E466DD2147BCED00EFD921 /* PZXVideoRecordPlayerTests.m */; };
 		99E466E92147BCED00EFD921 /* PZXVideoRecordPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E466E82147BCED00EFD921 /* PZXVideoRecordPlayerUITests.m */; };
+		99E466F92147BD5300EFD921 /* PZXPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E466F82147BD5300EFD921 /* PZXPlayerViewController.m */; };
+		99E466FC2147C17600EFD921 /* PZXVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E466FB2147C17600EFD921 /* PZXVideoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		992DEDD22148A45900F68978 /* PZXCircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZXCircleView.h; sourceTree = "<group>"; };
+		992DEDD32148A45900F68978 /* PZXCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXCircleView.m; sourceTree = "<group>"; };
+		99AD48A321490E3F0040C78D /* PZXVideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZXVideoModel.h; sourceTree = "<group>"; };
+		99AD48A421490E3F0040C78D /* PZXVideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXVideoModel.m; sourceTree = "<group>"; };
 		99E466C12147BCE900EFD921 /* PZXVideoRecordPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PZXVideoRecordPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E466C42147BCE900EFD921 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		99E466C52147BCE900EFD921 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,11 @@
 		99E466E42147BCED00EFD921 /* PZXVideoRecordPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PZXVideoRecordPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E466E82147BCED00EFD921 /* PZXVideoRecordPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXVideoRecordPlayerUITests.m; sourceTree = "<group>"; };
 		99E466EA2147BCED00EFD921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E466F72147BD5300EFD921 /* PZXPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZXPlayerViewController.h; sourceTree = "<group>"; };
+		99E466F82147BD5300EFD921 /* PZXPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXPlayerViewController.m; sourceTree = "<group>"; };
+		99E466FA2147C17600EFD921 /* PZXVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZXVideoView.h; sourceTree = "<group>"; };
+		99E466FB2147C17600EFD921 /* PZXVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXVideoView.m; sourceTree = "<group>"; };
+		99E466FD2147C35900EFD921 /* PZXVideo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZXVideo.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +114,7 @@
 		99E466C32147BCE900EFD921 /* PZXVideoRecordPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				99E466F62147BD1000EFD921 /* PZXVideoRecordPlayerLib */,
 				99E466C42147BCE900EFD921 /* AppDelegate.h */,
 				99E466C52147BCE900EFD921 /* AppDelegate.m */,
 				99E466C72147BCE900EFD921 /* ViewController.h */,
@@ -110,6 +124,7 @@
 				99E466CF2147BCEC00EFD921 /* LaunchScreen.storyboard */,
 				99E466D22147BCEC00EFD921 /* Info.plist */,
 				99E466D32147BCEC00EFD921 /* main.m */,
+				99E466FD2147C35900EFD921 /* PZXVideo.pch */,
 			);
 			path = PZXVideoRecordPlayer;
 			sourceTree = "<group>";
@@ -130,6 +145,21 @@
 				99E466EA2147BCED00EFD921 /* Info.plist */,
 			);
 			path = PZXVideoRecordPlayerUITests;
+			sourceTree = "<group>";
+		};
+		99E466F62147BD1000EFD921 /* PZXVideoRecordPlayerLib */ = {
+			isa = PBXGroup;
+			children = (
+				99E466F72147BD5300EFD921 /* PZXPlayerViewController.h */,
+				99E466F82147BD5300EFD921 /* PZXPlayerViewController.m */,
+				99E466FA2147C17600EFD921 /* PZXVideoView.h */,
+				99E466FB2147C17600EFD921 /* PZXVideoView.m */,
+				992DEDD22148A45900F68978 /* PZXCircleView.h */,
+				992DEDD32148A45900F68978 /* PZXCircleView.m */,
+				99AD48A321490E3F0040C78D /* PZXVideoModel.h */,
+				99AD48A421490E3F0040C78D /* PZXVideoModel.m */,
+			);
+			path = PZXVideoRecordPlayerLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +292,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99AD48A521490E3F0040C78D /* PZXVideoModel.m in Sources */,
 				99E466C92147BCE900EFD921 /* ViewController.m in Sources */,
 				99E466D42147BCEC00EFD921 /* main.m in Sources */,
+				99E466F92147BD5300EFD921 /* PZXPlayerViewController.m in Sources */,
 				99E466C62147BCE900EFD921 /* AppDelegate.m in Sources */,
+				99E466FC2147C17600EFD921 /* PZXVideoView.m in Sources */,
+				992DEDD42148A45900F68978 /* PZXCircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +469,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55V9K2V9Z4;
+				GCC_PREFIX_HEADER = "/Users/xrkj/Desktop/我的电脑/PZXVideoRecordPlayer/PZXVideoRecordPlayer/PZXVideo.pch";
 				INFOPLIST_FILE = PZXVideoRecordPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +488,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55V9K2V9Z4;
+				GCC_PREFIX_HEADER = "/Users/xrkj/Desktop/我的电脑/PZXVideoRecordPlayer/PZXVideoRecordPlayer/PZXVideo.pch";
 				INFOPLIST_FILE = PZXVideoRecordPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

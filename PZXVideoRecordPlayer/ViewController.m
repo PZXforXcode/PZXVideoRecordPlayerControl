@@ -7,16 +7,27 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "PZXVideoView.h"
+#import "PZXPlayerViewController.h"
+@interface ViewController ()<PZXVideoViewDelegate>
+@property (nonatomic, strong) PZXVideoView *videoView;
 
 @end
 
 @implementation ViewController
 
+- (BOOL)prefersStatusBarHidden{
+    return YES;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.navigationController.navigationBar.hidden = YES;
+    
+    _videoView = [[PZXVideoView alloc] initWithFMVideoViewType:TypeFullScreen];
+    _videoView.delegate = self;
+    [self.view addSubview:_videoView];
+    
 }
 
 
@@ -25,5 +36,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - FMFVideoViewDelegate
+- (void)dismissVC
+{
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+}
 
+- (void)recordFinishWithvideoUrl:(NSURL *)videoUrl
+{
+    
+    
+    PZXPlayerViewController *playVC = [[PZXPlayerViewController alloc] init];
+    playVC.videoUrl =  videoUrl;
+    [self.navigationController pushViewController:playVC animated:YES];
+}
 @end
